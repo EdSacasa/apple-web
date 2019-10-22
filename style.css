@@ -7,11 +7,13 @@ body {
 .verse-hero {
   background-image: url("images/mountain.png");
   background-repeat: no-repeat;
-  background-size: 1024px 700px;
-  margin-bottom: 80px;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-size: 105%;
   padding-top: 100px;
   width: 100%;
-  height: 100%;
+  margin-bottom: 2px;
+  height: 85vh;
 }
 
 .verse-hero ul {
@@ -32,6 +34,7 @@ body {
 
 .verse-hero li {
   border: 1px grey solid;
+  font-weight: 100;
 }
 
 .grey-grad {
@@ -62,6 +65,14 @@ body {
   text-decoration: none;
   color: white;
 
+}
+
+.w100 {
+  width: 100%;
+}
+
+.promos {
+  width: 100%;
 }
 
 .promos-nav {
