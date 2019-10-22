@@ -1,0 +1,74 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.verse-hero {
+  background-image: url("images/mountain.png");
+  background-repeat: no-repeat;
+  background-size: 1024px 700px;
+  margin-bottom: 80px;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.verse-hero ul {
+  list-style: none;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.just-center {
+  text-align: justify;
+}
+
+.grid {
+  display: grid;
+}
+
+.verse-hero li {
+  border: 1px grey solid;
+}
+
+.grey-grad {
+  background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%)
+}
+
+.left-nav-item {
+  border-radius: 5px 0 0 5px;
+}
+
+.right-nav-item {
+  border-radius: 0 5px 5px 0;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2px;
+}
+
+.top-nav {
+  display: grid;
+  grid-template-columns: repeat(8, 104px) 132px;
+  height: 36px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.promos-nav {
+  margin: 0;
+}
+
+.promos ul {
+  list-style: none;
+  display: block;
+}
