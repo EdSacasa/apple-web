@@ -40,12 +40,12 @@ body {
   font-size: 0.8em;
 }
 
-.grey-grad :hover{
+.grey-grad :hover {
   background-color: #5f6769;
 }
 
 .grey-grad {
-  background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%)
+  background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
 }
 
 .left-nav-item {
@@ -115,6 +115,7 @@ body {
   position: absolute;
   padding-top: 70px;
 }
+
 .main-text a:hover {
   text-decoration: underline;
 }
