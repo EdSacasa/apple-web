@@ -99,21 +99,6 @@ body {
   width: 100%;
 }
 
-.bottom-links li {
-  list-style: none;
-  display: inline;
-  font-size: 12px;
-  margin-right: 10px;
-}
-
-.bottom-links li a {
-  text-decoration: none;
-}
-
-.bottom-links li:hover {
-  text-decoration: underline;
-}
-
 .main-text {
   display: flex;
   justify-content: center;
@@ -141,6 +126,21 @@ body {
   color: white;
   padding-top: 120px;
   position: relative;
+}
+
+.bottom-links li {
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.bottom-links li a {
+  text-decoration: none;
+}
+
+.bottom-links li:hover {
+  text-decoration: underline;
 }
 
 .left {
