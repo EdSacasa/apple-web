@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-.verse-hero {
+.principal {
   background-image: url("images/mountain.jpg");
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -15,7 +15,7 @@ body {
   height: 85vh;
 }
 
-.verse-hero ul {
+.principal ul {
   list-style: none;
 }
 
@@ -35,9 +35,13 @@ body {
   display: grid;
 }
 
-.verse-hero li {
+.principal li {
   border: 1px grey solid;
   font-size: 0.8em;
+}
+
+.grey-grad :hover{
+  background-color: #5f6769;
 }
 
 .grey-grad {
@@ -52,6 +56,14 @@ body {
   border-radius: 0 5px 5px 0;
 }
 
+.right-nav-item input {
+  border-radius: 10px;
+}
+
+.right-nav-item i {
+  color: white;
+}
+
 .grid2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -62,7 +74,7 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 104px) 150px;
   height: 36px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .top-nav a {
@@ -91,20 +103,26 @@ body {
 .main-text {
   display: flex;
   justify-content: center;
-
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 100px;
 }
 
 .main-text a {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3.5em;
   text-decoration: none;
   color: white;
+  position: absolute;
+  padding-top: 70px;
 }
 
 .main-text p {
   font-size: 1.5em;
   text-decoration: none;
   color: white;
+  padding-top: 120px;
+  position: relative;
 }
 
 .bottom-links li {
