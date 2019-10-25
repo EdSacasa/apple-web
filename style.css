@@ -40,10 +40,6 @@ body {
   font-size: 0.8em;
 }
 
-.grey-grad :hover {
-  background-color: #5f6769;
-}
-
 .grey-grad {
   background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
 }
@@ -58,6 +54,11 @@ body {
 
 .right-nav-item input {
   border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 10px;
+  margin-left: 5px;
+  width: 80px;
+  align-self: center;
 }
 
 .right-nav-item i {
@@ -127,6 +128,8 @@ body {
   padding-top: 120px;
   position: relative;
 }
+
+
 
 .bottom-links li {
   list-style: none;
